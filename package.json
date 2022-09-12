@@ -1,6 +1,6 @@
 {
   "name": "apple-stock-check-cli",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Check apple store stock situation.",
   "main": "index.js",
   "scripts": {
