@@ -1,0 +1,30 @@
+{
+  "name": "apple-stock-check-cli",
+  "version": "1.0.3",
+  "description": "Check apple store stock situation.",
+  "main": "index.js",
+  "scripts": {
+    "pub-patch": "npm version patch && npm publish && git push remote master",
+    "start-dev": "npm link",
+    "quit-dev": "npm unlink apple-stock-check-cli -g"
+  },
+  "keywords": [
+    "Apple Store",
+    "stock",
+    "check"
+  ],
+  "type": "module",
+  "author": "kyangc@gmail.com",
+  "license": "ISC",
+  "bin": {
+    "apple-store-check": "cli.js"
+  },
+  "dependencies": {
+    "beepbeep": "^1.3.0",
+    "commander": "^8.3.0",
+    "got": "^12.0.0",
+    "inquirer": "^8.2.0",
+    "play-sound": "^1.1.5",
+    "single-line-log": "^1.1.2"
+  }
+}
