@@ -6,7 +6,7 @@
   "scripts": {
     "pub-patch": "npm version patch && npm publish && git push remote master",
     "start-dev": "npm link",
-    "quit-dev": "npm unlink apple-stock-check-cli -g"
+    "quit-dev": "npm unlink apple-stock-check-cli -g && npm install -g apple-stock-check-cli"
   },
   "keywords": [
     "Apple Store",
